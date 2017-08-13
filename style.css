@@ -1,0 +1,50 @@
+:root{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+	padding: 100px;
+}
+h1{
+	font-size: 5em;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #F57672;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+.desc{
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.author{
+	margin-bottom: 50px;
+    opacity: .7;
+    font-size: 20px;
+}
+.author a{
+	color: #39ACA2;
+}
+#list{
+	font-size: 1em;
+	font-family: 'Source code pro', serif;
+}
+#list ul li{
+	list-style-type: decimal;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.footer{
+	margin-top: 50px;
+}
+.footer a{
+	margin-right: 10px;
+	text-decoration: none;
+	color: #39ACA2;
+}
